@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<suite name = "Simple Reporter Suite" data-provider-thread-count="20">
+   <listeners>
+      <listener class-name = "com.testng.CustomReporter" />
+   </listeners>
+
+   <test name = "Simple Reporter test">
+      <classes>
+         <class name = "com.testng.dataprovider.TestDP1" />
+            
+      </classes>
+   </test>
+</suite>

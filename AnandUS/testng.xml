@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+	<!-- <test name="Nopackage" > <classes> <class name="NoPackageTest" /> </classes> 
+		</test> -->
+
+	<test name="Regression1">
+		<classes>
+			<class name="com.testng.test.TestTestNG">
+			<!--  It will execute the methods only if you use include
+			It will not the methods only if fyou use exclude -->
+				<!-- <methods>
+					<exclude name="testMethod2" />
+					<include name="testMethod3" />
+				</methods> -->
+			</class>
+			<class name="com.Encap.TestEncapsulation" />
+
+		</classes>
+	</test>
+</suite>
