@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 //import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class TestChromeOptions {
-
+// this a example for v2 second
 	public static void main(String[] args) throws InterruptedException {
 		String baseUrl = "http://www.facebook.com/";
 		System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");
